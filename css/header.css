@@ -1,0 +1,223 @@
+
+
+.container {
+    border: 5px solid;
+    border-color: white;
+    width: 300PX;
+    margin-top: 30px;
+    display: block;
+    border-width: 1;
+    border-radius: 10px;
+    height: 1700PX;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.gg {
+    width: 950px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.title-strong {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.gg {
+    width: 100%;
+    height: auto;
+}
+
+.lifestyle-badge {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.lifestyle-badge i {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .lifestyle-badge {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.title-strong {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.title-a1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+@media (max-width: 768px) {
+    .title-strong {
+        font-size: 18px;
+    }
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin-bottom: 10px;
+    }
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: rgb(51, 51, 239);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.search-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.input-group-prepend .input-group-text {
+    border-radius: 0;
+}
+
+.nav-tools {
+    display: flex;
+    align-items: center;
+}
+
+.nav-tools button {
+    margin-left: 9px;
+    background-color: #e6e8eb;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        margin-right: 10px;
+    }
+
+    .search-bar {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14PX;
+    margin-left: 10px;
+    margin-top: 0PX;
+}
+
+.title-strong {
+    margin-bottom: 0PX;
+    margin-left: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 3 / 1;
+    margin-left: 120px;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20PX;
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    margin-top: 0px;
+}
+.card-text{
+    font-size: 18px;
+}
+
+.parent1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 2px solid;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 16px;
+}
+.last-p{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20PX;
+}
+.Replay{
+    margin-top: 20px;
+    border: 1px solid;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-color: whitesmoke;
+    border-width: 10px;
+    cursor: pointer;
+}
